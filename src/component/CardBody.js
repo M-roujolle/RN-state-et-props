@@ -13,9 +13,9 @@ export default CardBody
 
 const styles = StyleSheet.create({
     containerCardBody: {
-        flex: 3.3,
-        borderBottomWidth: 1,
-        borderColor: '#2699fb',
+        flex: 6,
+        borderBottomWidth: 2,
+        borderColor: 'blue',
     },
     imageProduct: {
         width: "100%",

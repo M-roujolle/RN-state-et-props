@@ -12,7 +12,7 @@ const Card = (props) => {
 
             <CardHeader price={props.max.price} />
             <CardBody image={props.max.photo} />
-            <CardFooter title={props.max.title} desc={props.max.desc} />
+            <CardFooter title={props.max.title} desc={props.max.desc} likes={props.max.likes} />
 
         </View>
     )
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         height: 370,
         width: 175,
         borderWidth: 1,
-        borderColor: '#2699fb',
+        borderColor: '#dark',
         marginTop: 15,
     }
 })

@@ -6,7 +6,7 @@ const CardHeader = ({ price }) => {
     return (
 
         <View style={styles.containerCardHeader}>
-            <Text>{price}</Text>
+            <Text style={{ fontWeight: 'bold', color: 'grey' }}>{price} €</Text>
         </View>
 
     )
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     containerCardHeader: {
         flex: 0.7,
         borderBottomWidth: 1,
-        borderColor: '#2699fb',
+        borderColor: 'dark',
         justifyContent: "center",
         alignItems: "center",
         paddingRight: 10,
